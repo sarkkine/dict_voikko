@@ -15,6 +15,17 @@ Installation
 
 Put **dict_voikko** in **[POSTGRES]/contrib/** and compile.
 
+### Compilation and install on Debian linux
+```bash
+apt-get install voikko-fi
+apt-get install libvoikko-dev
+make USE_PGXS=1
+make install
+wget http://www.puimula.org/htp/testing/voikko-snapshot/dict-morpho.zip
+unzip dict-morpho.zip
+mv mor-morpho/ /usr/lib/voikko/2/
+```
+
 ###In PostgreSQL
 
 Run something like:
