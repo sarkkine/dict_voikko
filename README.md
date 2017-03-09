@@ -26,6 +26,8 @@ unzip dict-morpho.zip
 mv mor-morpho/ /usr/lib/voikko/2/
 ```
 
+Note: libvoikko versions 4.0+ require different morpho-files, from [http://www.puimula.org/htp/testing/voikko-snapshot-v5/](http://www.puimula.org/htp/testing/voikko-snapshot-v5/). Those files should be put into ```/usr/lib/voikko/5/```, instead of ```/usr/lib/voikko/2/```
+
 ###In PostgreSQL
 
 Run something like:
